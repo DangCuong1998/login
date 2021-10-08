@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14670" started-at="2021-09-05T11:07:54Z" finished-at="2021-09-05T11:08:09Z">
+  <suite name="Default suite" duration-ms="13884" started-at="2021-10-08T10:57:03Z" finished-at="2021-10-08T10:57:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14670" started-at="2021-09-05T11:07:54Z" finished-at="2021-09-05T11:08:09Z">
-      <class name="photoruction.LoginPasswordTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:photoruction.LoginPasswordTest@229d10bd]" name="setUp" is-config="true" duration-ms="13727" started-at="2021-09-05T18:07:54Z" finished-at="2021-09-05T18:08:08Z">
+    <test name="Default test" duration-ms="13884" started-at="2021-10-08T10:57:03Z" finished-at="2021-10-08T10:57:17Z">
+      <class name="github.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:github.LoginTest@229d10bd]" name="setUp" is-config="true" duration-ms="11053" started-at="2021-10-08T17:57:03Z" finished-at="2021-10-08T17:57:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginFail()[pri:0, instance:photoruction.LoginPasswordTest@229d10bd]" name="loginFail" duration-ms="893" started-at="2021-09-05T18:08:08Z" finished-at="2021-09-05T18:08:09Z">
+        <test-method status="PASS" signature="loginsuccessTC41()[pri:0, instance:github.LoginTest@229d10bd]" name="loginsuccessTC41" duration-ms="2761" started-at="2021-10-08T17:57:14Z" finished-at="2021-10-08T17:57:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginFail -->
-      </class> <!-- photoruction.LoginPasswordTest -->
+        </test-method> <!-- loginsuccessTC41 -->
+      </class> <!-- github.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

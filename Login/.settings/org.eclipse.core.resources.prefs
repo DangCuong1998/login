@@ -1,5 +1,3 @@
 eclipse.preferences.version=1
 encoding//src/main/java/base/BaseTest.java=UTF-8
-encoding//src/test/java/photoruction/LoginEmailTest.java=UTF-8
-encoding//src/test/java/photoruction/LoginPasswordTest.java=UTF-8
-encoding//src/test/java/photoruction/LoginTest.java=UTF-8
+encoding//src/test/java/github/LoginTest.java=UTF-8

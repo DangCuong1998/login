@@ -2,6 +2,7 @@ package base;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import utilities.Links;
@@ -11,7 +12,7 @@ public class BaseTest {
 	@BeforeMethod
 	public void setUp() {
 		//Chrome
-		System.setProperty("webdriver.chrome.driver", "C://servers/chromedriver.exe");/* Thay đổi địa chỉ đúng với thư mục chứa file chromedriver.exe trong máy của bạn và lưu.Ý tải file chromedriver.exe phải nhỏ hơn hoặc bằng với verison Chrome hiện tại trong máy của bạn*/
+		System.setProperty("webdriver.chrome.driver", "C://server/chromedriver.exe");/* Thay đổi địa chỉ đúng với thư mục chứa file chromedriver.exe trong máy của bạn và lưu.Ý tải file chromedriver.exe phải nhỏ hơn hoặc bằng với verison Chrome hiện tại trong máy của bạn*/
 		driver = new ChromeDriver();	
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

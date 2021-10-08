@@ -3,12 +3,12 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="photoruction.LoginTest">
+      <class name="github.LoginTest">
         <methods>
           <include name="setUp"/>
-          <include name="loginFail"/>
+          <include name="ChecktextTC11"/>
         </methods>
-      </class> <!-- photoruction.LoginTest -->
+      </class> <!-- github.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
