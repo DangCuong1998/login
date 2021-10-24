@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12171" started-at="2021-10-17T09:22:12Z" finished-at="2021-10-17T09:22:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12171" started-at="2021-10-17T09:22:12Z" finished-at="2021-10-17T09:22:24Z">
+      <class name="github.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:github.LoginTest@229d10bd]" name="setUp" is-config="true" duration-ms="4132" started-at="2021-10-17T16:22:12Z" finished-at="2021-10-17T16:22:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginsuccessTC31()[pri:0, instance:github.LoginTest@229d10bd]" name="loginsuccessTC31" duration-ms="2260" started-at="2021-10-17T16:22:16Z" finished-at="2021-10-17T16:22:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginsuccessTC31 -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:github.LoginTest@229d10bd]" name="setUp" is-config="true" duration-ms="3337" started-at="2021-10-17T16:22:18Z" finished-at="2021-10-17T16:22:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginsuccessTC42()[pri:0, instance:github.LoginTest@229d10bd]" name="loginsuccessTC42" duration-ms="2404" started-at="2021-10-17T16:22:21Z" finished-at="2021-10-17T16:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginsuccessTC42 -->
+      </class> <!-- github.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
